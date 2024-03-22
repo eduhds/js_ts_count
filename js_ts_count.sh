@@ -11,6 +11,8 @@ TS | $2 | $4" | column -t -s '|'
         echo "JS files: $1 ($3)%"
         echo "TS files: $2 ($4)%"
     fi
+
+    printf "\n"
 }
 
 if [ -z "$1" ]; then
