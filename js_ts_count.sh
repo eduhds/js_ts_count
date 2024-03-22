@@ -4,7 +4,7 @@ show_message() {
     printf "\n"
     
     if command -v column &> /dev/null; then
-        echo "| files | %
+        echo " | files | %
 JS | $1 | $3
 TS | $2 | $4" | column -t -s '|'
     else
